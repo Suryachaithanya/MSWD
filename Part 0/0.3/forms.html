@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registration Page</title>
+        <link rel="stylesheet" type="text/css" href="register.css"/>
+    </head>
+    <body>
+            <div class="loginbox">
+                 
+                <h1>Registration Form</h1>
+                <form action="login" method="post" onsubmit="return validate_loginform()">
+                    <input type="text" name= "username" placeholder="Username" required/>
+                    <input type="text" name="email" placeholder="Email" required/>
+                    <input type="Password" name="password" placeholder="Password" required/>
+                    <input type="Password" name="password" placeholder="Retype Password" required/>
+                    <input type="submit" name="submit" value="Login"/><br>
+                </form>
+                    <a href="fyp.jsp" align='center'>Forget your Password ?</a><br>
+                    <a href="signup.jsp" align='center'>Don't have account ?</a>
+            </div>
+    </body>
+    </html>
